@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.hero-text{
+    font-family: "Playfair Display", serif;
+}
+
+.custom-shape-divider-bottom-1724074222 {
+    
+    
+    margin-bottom:0 ;
+    width: 100vw;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1724074222 svg {
+    
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 270px;
+}
+
+.custom-shape-divider-bottom-1724074222 .shape-fill {
+    fill: #1f2937;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1724074222 svg {
+        width: calc(139% + 1.3px);
+        height: 200px;
+        
+        
+    }
+}
