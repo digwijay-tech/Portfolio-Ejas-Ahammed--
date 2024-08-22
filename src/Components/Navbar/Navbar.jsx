@@ -2,18 +2,20 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'Designs', href: 'design', current: false },
-  { name: 'About Me', href: '#', current: false },
+  { name: 'Home', href: '/', current: false },
+  { name: 'Services', href: '#design', current: false },
+  { name: 'Skills', href: '#skill', current: false },
+  { name: 'About Me', href: '#aboutme', current: false },
 ]
-
+ 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
 export default function Navbar() {
+ 
   return (
-    <Disclosure as="nav" className="bg-gray-800 ">
+    <Disclosure as="nav" className=" ">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
