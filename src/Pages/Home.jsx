@@ -6,7 +6,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import Skill from '../Components/Skill/Skill'
 const Home = () => {
   return (
-    <div className="bg-slate-950 text-yellow-50">
+    <div className="bg-slate-950 text-yellow-50 overflow-hidden">
     <Navbar/>
     <Hero/>
     <AboutMe/>

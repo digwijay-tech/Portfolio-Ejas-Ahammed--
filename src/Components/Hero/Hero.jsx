@@ -13,7 +13,7 @@ const Hero = () => {
           <h3 className="text-xl leading-normal">Graphic Designer</h3>
           <p></p>
         </div>
-        <img src={EjasPc} alt="Ejas" className="lg:w-full z-10 lg:pb-0 " />
+        <img src={EjasPc} alt="Ejas" className="lg:w-full z-10 lg:pb-0 invisible lg:visible" />
       </div>
       <Wave/>
     </div>
