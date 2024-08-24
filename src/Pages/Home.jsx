@@ -1,6 +1,7 @@
 
 import AboutMe from '../Components/AboutMe/AboutMe'
 import Designs from '../Components/Designs/Designs'
+import Footer from '../Components/Footer/Footer'
 import Hero from '../Components/Hero/Hero'
 import Navbar from '../Components/Navbar/Navbar'
 import Skill from '../Components/Skill/Skill'
@@ -12,6 +13,7 @@ const Home = () => {
     <AboutMe/>
     <Designs/>
     <Skill/>
+    <Footer/>
     
     </div>
   )
