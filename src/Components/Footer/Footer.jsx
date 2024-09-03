@@ -3,12 +3,12 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-5">
-      <div className="container mx-auto flex justify-between items-center">
+    <footer className="bg-gray-800 px-3 lg:px-auto text-white py-6 " id='footer'>
+      <div className="container flex justify-between items-center">
         <p className="text-sm">
           &copy; {new Date().getFullYear()} Digwijay. All rights reserved.
         </p>
-        <div className="flex space-x-4">
+        <div className="flex space-x-5">
           <a
             href="https://www.instagram.com"
             target="_blank"
