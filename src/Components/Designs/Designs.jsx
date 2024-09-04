@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Designs = () => {
   return (
-    <div className="pt-11" id="design">
+    <div className="pt-28" id="design">
       <div className="flex justify-center">
         <h2 className="text-yellow-400 font-bold text-3xl">Services</h2>
       </div>

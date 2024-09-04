@@ -2,6 +2,15 @@ import EjasPc from "../../assets/ijas-pic.png";
 // import Wave from "../Wave";
 
 const Hero = () => {
+
+    const phoneNumber = '7994206131'; 
+    const message = 'Hi'; 
+  
+    const handleClick = () => {
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank');
+    };
+
   return (
     <div className="relative lg:h-lvh  pt-0 lg:pt-10 ">
       <div className="items-center justify-center grid lg:grid-cols-2 lg:gap-0  gap-10 sm:grid-cols-1 relative z-10 lg:pt-0 pt-24">
@@ -14,7 +23,7 @@ const Hero = () => {
           <h3 className="text-xl leading-normal">Graphic Designer</h3>
           </div>
           <div ></div>
-          <button  className="button-hero">
+          <button  className="button-hero" onClick={handleClick}>
             <p>Let&apos;s Connect</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -33,6 +42,7 @@ const Hero = () => {
           alt="Ejas"
           className="lg:w-full z-10 lg:pb-0 "
         />
+
       </div>
     </div>
   );
