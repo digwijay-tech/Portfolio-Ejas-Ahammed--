@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Designs = () => {
   return (
-    <div className="pt-28" id="design">
-      <div className="flex justify-center">
+    <div className="pt-28 px-4 md:px-4 lg:px-0" id="design">
+      <div className="flex justify-center pb-3">
         <h2 className="text-yellow-400 font-bold text-3xl">Services</h2>
       </div>
       <div className="flex justify-center">
@@ -14,9 +14,15 @@ const Designs = () => {
             display: "flex",
             flexWrap: "wrap",
             "& > :not(style)": {
-              m: 3,
-              width: 350,
+              m:1,
+              width:  {
+                xs: '100%', // Full width on extra small screens
+                sm: 300, // Medium size on small screens
+                md: 350, // Default size on medium screens
+                lg: 350, // Default size on large screens
+              },
               height: 250,
+              
             },
           }}
         >
@@ -25,12 +31,13 @@ const Designs = () => {
               elevation={3}
               className="h-52 lg:h-48 p-4 flex items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg"
               sx={{
+                backgroundColor: '#1f2937',
                 backgroundImage: "url('/path/to/poster-image.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
             >
-              <h2 className="text-xl font-semibold text-white bg-black bg-opacity-50 p-2 rounded">Poster Design</h2>
+              <h2 className="text-xl font-semibold text-yellow-400  p-2 rounded">Poster Design</h2>
             </Paper>
           </Link>
           <Link to="/logo">
@@ -38,12 +45,13 @@ const Designs = () => {
               elevation={3}
               className="h-52 lg:h-48 p-4 flex items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg"
               sx={{
+                backgroundColor: '#1f2937',
                 backgroundImage: "url('/path/to/logo-image.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
             >
-              <h2 className="text-xl font-semibold text-white bg-black bg-opacity-50 p-2 rounded">Logo Design</h2>
+              <h2 className="text-xl font-semibold text-yellow-400 p-2 rounded">Logo Design</h2>
             </Paper>
           </Link>
           <Link to="/print">
@@ -51,12 +59,13 @@ const Designs = () => {
               elevation={3}
               className="h-52 lg:h-48 p-4 flex items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg"
               sx={{
-                backgroundImage: "url('/path/to/print-image.jpg')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
+                backgroundColor: '#1f2937',
+                // backgroundImage: "url('/path/to/print-image.jpg')",
+                // backgroundSize: "cover",
+                // backgroundPosition: "center",
               }}
             >
-              <h2 className="text-xl font-semibold text-white bg-black bg-opacity-50 p-2 rounded">Print Design</h2>
+              <h2 className="text-xl font-semibold text-yellow-400 p-2 rounded">Print Design</h2>
             </Paper>
           </Link>
         </Box>
