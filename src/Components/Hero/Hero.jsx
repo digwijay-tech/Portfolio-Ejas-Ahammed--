@@ -3,7 +3,7 @@ import EjasPc from "../../assets/ijas-pic.png";
 
 const Hero = () => {
 
-    const phoneNumber = '7994206131'; 
+    const phoneNumber = '7510889936'; 
     const message = 'Hi'; 
   
     const handleClick = () => {
