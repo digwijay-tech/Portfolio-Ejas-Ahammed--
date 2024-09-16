@@ -73,12 +73,12 @@ export default function AboutTabs() {
                 color: '#fff',
               },
               '@media (max-width: 600px)': {
-                fontSize: '0.775rem', // Smaller font size on small screens
+                fontSize: '0.740rem', // Smaller font size on small screens
               },
             }}
           />
           <Tab
-            label="Tech"
+            label="software"
             {...a11yProps(1)}
             sx={{
               '&.Mui-selected': {
@@ -92,12 +92,12 @@ export default function AboutTabs() {
                 color: '#fff',
               },
               '@media (max-width: 600px)': {
-                fontSize: '0.775rem',
+                fontSize: '0.740rem',
               },
             }}
           />
           <Tab
-            label="Item Three"
+            label="Experience"
             {...a11yProps(2)}
             sx={{
               '&.Mui-selected': {
@@ -111,7 +111,7 @@ export default function AboutTabs() {
                 color: '#fff',
               },
               '@media (max-width: 600px)': {
-                fontSize: '0.775rem',
+                fontSize: '0.740rem',
               },
             }}
           />
@@ -119,20 +119,22 @@ export default function AboutTabs() {
       </Box>
       <CustomTabPanel value={value} index={0}>
       <ul style={{ listStyleType: 'none' }}>
-          <li style={{ position: 'relative', paddingLeft: '1.5rem', marginBottom: '0.5rem' }}>
+          <li style={{ position: 'relative', paddingLeft: '1.5rem', paddingBottom: '0.5rem', marginBottom: '0.5rem' }}>
             <span style={{
               position: 'absolute',
               left: 0,
               top: '50%',
+              
               transform: 'translateY(-50%)',
               fontSize: '1.25rem', 
               color: '#ffeb3b', 
             }}>
               &rarr;
             </span>
-            Apple
+            Diploma In Digital Image <br/>
+G-Tec Computer Center
           </li>
-          <li style={{ position: 'relative', paddingLeft: '1.5rem', marginBottom: '0.5rem' }}>
+          <li style={{ position: 'relative', paddingLeft: '1.5rem',paddingBottom: '0.5rem', marginBottom: '0.5rem'  }}>
             <span style={{
               position: 'absolute',
               left: 0,
@@ -143,9 +145,10 @@ export default function AboutTabs() {
             }}>
               &rarr;
             </span>
-            Apple
+            Diploma In Accounting <br/>
+Sobha Institute, Vadakara
           </li>
-          <li style={{ position: 'relative', paddingLeft: '1.5rem', marginBottom: '0.5rem' }}>
+          <li style={{ position: 'relative', paddingLeft: '1.5rem', marginBottom: '0.5rem'  }}>
             <span style={{
               position: 'absolute',
               left: 0,
@@ -156,7 +159,8 @@ export default function AboutTabs() {
             }}>
               &rarr;
             </span>
-            Apple
+            Higher Secondary <br/>
+GVHSS Madapply
           </li>
           </ul>
       </CustomTabPanel>
@@ -174,7 +178,7 @@ export default function AboutTabs() {
             }}>
               &rarr;
             </span>
-            Apple
+            Adobe Photoshop
           </li>
           <li style={{ position: 'relative', paddingLeft: '1.5rem', marginBottom: '0.5rem' }}>
             <span style={{
@@ -187,7 +191,7 @@ export default function AboutTabs() {
             }}>
               &rarr;
             </span>
-            StrawBerry
+            Adobe Illustrator
           </li>
           <li style={{ position: 'relative', paddingLeft: '1.5rem', marginBottom: '0.5rem' }}>
             <span style={{
@@ -200,53 +204,31 @@ export default function AboutTabs() {
             }}>
               &rarr;
             </span>
-            Apple
+            CorelDraw
+          </li>
+          <li style={{ position: 'relative', paddingLeft: '1.5rem', marginBottom: '0.5rem' }}>
+            <span style={{
+              position: 'absolute',
+              left: 0,
+              top: '50%',
+              transform: 'translateY(-50%)',
+              fontSize: '1.25rem', 
+              color: '#ffeb3b', 
+            }}>
+              &rarr;
+            </span>
+            InDesign
           </li>
           </ul>
       </CustomTabPanel>
 
       <CustomTabPanel value={value} index={2}>
-         <ul style={{ listStyleType: 'none' }}>
-          <li style={{ position: 'relative', paddingLeft: '1.5rem', marginBottom: '0.5rem' }}>
-            <span style={{
-              position: 'absolute',
-              left: 0,
-              top: '50%',
-              transform: 'translateY(-50%)',
-              fontSize: '1.25rem', 
-              color: '#ffeb3b', 
-            }}>
-              &rarr;
-            </span>
-            Apple
-          </li>
-          <li style={{ position: 'relative', paddingLeft: '1.5rem', marginBottom: '0.5rem' }}>
-            <span style={{
-              position: 'absolute',
-              left: 0,
-              top: '50%',
-              transform: 'translateY(-50%)',
-              fontSize: '1.25rem', 
-              color: '#ffeb3b', 
-            }}>
-              &rarr;
-            </span>
-            Apple
-          </li>
-          <li style={{ position: 'relative', paddingLeft: '1.5rem', marginBottom: '0.5rem' }}>
-            <span style={{
-              position: 'absolute',
-              left: 0,
-              top: '50%',
-              transform: 'translateY(-50%)',
-              fontSize: '1.25rem', 
-              color: '#ffeb3b', 
-            }}>
-              &rarr;
-            </span>
-            lemon
-          </li>
-          </ul>
+         <span>
+         Freebirds Advertising <br />
+June 2022 - 2024 July 
+
+<p className='pt-8'> I am an accomplished graphic designer with 1+ years of hands-on experience in an advertising company.</p>
+         </span>
       </CustomTabPanel>
     </Box>
   );

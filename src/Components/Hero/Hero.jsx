@@ -10,9 +10,8 @@ const Hero = () => {
       const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
       window.open(url, '_blank');
     };
-
   return (
-    <div className="relative lg:h-lvh h-svh pt-0 lg:pt-10 ">
+    <div className="relative lg:h-lvh h-svh pt-0 lg:pt-10 " id="home">
       <div className="lg:relative h-svh lg:h-auto items-center justify-center grid lg:grid-cols-2 lg:gap-0  gap-10 sm:grid-cols-1 z-10 lg:pt-0 pt-24">
         <div className="p-10 lg:ms-16 ms-0 grid grid-rows-2">
           <div>

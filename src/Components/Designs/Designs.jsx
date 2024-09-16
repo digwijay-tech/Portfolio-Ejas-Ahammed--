@@ -19,9 +19,9 @@ const Designs = () => {
                 xs: '100%', // Full width on extra small screens
                 sm: 300, // Medium size on small screens
                 md: 350, // Default size on medium screens
-                lg: 350, // Default size on large screens
+                lg: 390, // Default size on large screens
               },
-              height: 250,
+              height: 280,
               
             },
           }}
