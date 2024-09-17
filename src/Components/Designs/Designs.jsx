@@ -26,53 +26,47 @@ const Designs = () => {
             },
           }}
         >
-          <Link to="/poster">
+          <Link to="/postergallery">
             <Paper
               elevation={3}
               className="h-52 lg:h-48  p-4 flex items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg"
               sx={{
-                backgroundImage: "url('src/assets/img/poster.jpg')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
+                backgroundColor: "#facc15",
                 
               }}
             >
-              <h2 className="text-xl font-semibold text-yellow-400  p-2 rounded">
-                Poster Design
+              <h2 className="text-xl font-extrabold text-gray  p-2 rounded">
+                Poster Design <br /> <span className=" font-normal text-base lg:hidden "> Click to view</span>
               </h2>
             </Paper>
           </Link>
-          <Link to="/logo">
+          <Link to="/logogallery">
             <Paper
               elevation={3}
               className="h-52 lg:h-48 p-4 flex items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg"
               sx={{
                 
-                backgroundImage: "url('src/assets/img/logo.jpg')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
+                backgroundColor: "#facc15",
               }}
             >
-              <h2 className="text-xl font-semibold text-yellow-400 p-2 rounded">
-                Logo Design
+              <h2 className="text-xl font-extrabold text-gray p-2 rounded">
+                Logo Design <br /> <span className=" font-normal text-base lg:hidden">Click to view</span>
               </h2>
             </Paper>
           </Link>
-          <Link to="/print">
+          <Link to="/printgallery">
             <Paper
               elevation={3}
               className="h-52 lg:h-48 p-4 flex items-center justify-center transition-transform transform hover:scale-105 hover:shadow-lg"
               sx={{
-                // backgroundColor: "#1f2937",
-                backgroundImage: "url('src/assets/img/print.jpg')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
+                backgroundColor: "#facc15",
+
               }}
             >
-              <h2 className="text-xl font-semibold text-yellow-400 p-2 rounded">
-                Print Design
+              <h2 className="text-xl font-extrabold text-grayp-2 rounded">
+                Print Design <br /> <span className=" font-normal text-base lg:hidden">Click to view</span>
               </h2>
+              
             </Paper>
           </Link>
         </Box>
