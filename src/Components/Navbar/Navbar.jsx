@@ -2,7 +2,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '/', current: false },
+  { name: 'Home', href: 'home', current: false },
   { name: 'Services', href: '#design', current: false },
   { name: 'Skills', href: '#skill', current: false },
   { name: 'About Me', href: '#aboutme', current: false },
@@ -29,7 +29,7 @@ export default function Navbar() {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-center">
-                <a href="#">
+                <a href="/">
               <h1 className="text-white font-bold font text-lg">.EA</h1>
               </a>
             </div>
