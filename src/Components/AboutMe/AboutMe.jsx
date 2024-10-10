@@ -1,4 +1,4 @@
-import AboutTabs from "../AboutTabs";
+import AboutTabs from "./AboutTabs";
 
 const AboutMe = () => {
   return (
