@@ -66,7 +66,7 @@ const Skill = () => {
     </div>
     </div>
 
-    <div className="w-full lg:mx-7  p-6 border mt-9 mb-5 lg:mt-0 border-yellow-400 rounded-lg shadow-lg">
+    <div className="w-full lg:mx-2  p-6 border mt-9 mb-5 lg:mt-0 border-yellow-400 rounded-lg shadow-lg">
       <h2 className="text-xl font-bold mb-4 text-center">Contact Me</h2>
       <form onSubmit={onSubmit}>
         <div className="mb-4">
