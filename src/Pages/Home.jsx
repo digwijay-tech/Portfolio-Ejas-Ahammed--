@@ -1,5 +1,6 @@
 import AboutMe from "../Components/AboutMe/AboutMe";
 import Designs from "../Components/Designs/Designs";
+import LogoDesign from "../Components/Designs/LogoDesign";
 import Footer from "../Components/Footer/Footer";
 import Hero from "../Components/Hero/Hero";
 import Navbar from "../Components/Navbar/Navbar";
@@ -12,7 +13,7 @@ const Home = () => {
       <Hero />
       <AboutMe />
       <Designs />
-
+      <LogoDesign/>
       <Skill />
 
       <Footer />
