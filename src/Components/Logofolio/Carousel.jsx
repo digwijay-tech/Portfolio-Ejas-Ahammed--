@@ -1,3 +1,4 @@
+
 import gPic1 from '../../assets/img/Logos/logo-1.jpg'
 import gPic2 from '../../assets/img/Logos/logo-2.jpg'
 import gPic3 from '../../assets/img/Logos/logo-3.jpg'
@@ -41,8 +42,7 @@ const images = [
 
 
 ];
-
-const ImageCarousel = () => {
+const Carousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const imagesPerView = window.innerWidth >= 1024 ? 3 : 1; // Adjust this based on your breakpoint
     const totalSlides = Math.ceil(images.length / imagesPerView);
@@ -83,6 +83,6 @@ const ImageCarousel = () => {
         </button>
       </div>
     );
-};
+}
 
-export default ImageCarousel;
+export default Carousel

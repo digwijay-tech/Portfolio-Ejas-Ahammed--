@@ -1,10 +1,11 @@
 import AboutMe from "../Components/AboutMe/AboutMe";
 import Designs from "../Components/Designs/Designs";
-import LogoDesign from "../Components/Designs/LogoDesign";
+import LogoDesign from "../Components/Logofolio/LogoDesign";
 import Footer from "../Components/Footer/Footer";
 import Hero from "../Components/Hero/Hero";
 import Navbar from "../Components/Navbar/Navbar";
 import Skill from "../Components/Skill/Skill";
+import CV from "./CV";
 const Home = () => {
 
   return (
@@ -15,7 +16,7 @@ const Home = () => {
       <Designs />
       <LogoDesign/>
       <Skill />
-
+      <CV/>
       <Footer />
     </div>
   );

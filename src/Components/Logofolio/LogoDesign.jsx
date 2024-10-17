@@ -7,8 +7,8 @@ const LogoDesign = () => {
 
   return (
     <div id="logo">
-      <div className="lg:pt-10 px-6 md:px-4  pb-14  ">
-        <div className=" ms-3">
+      <div className="lg:pt-10 px-6  pb-14  ">
+        <div >
           <h2 className="text-yellow-400 font-bold text-3xl ">Logofolio</h2>
           <div className="lg:pt-10 pt-5">
             <SlideShow />
