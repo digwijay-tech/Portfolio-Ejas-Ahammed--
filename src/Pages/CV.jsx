@@ -1,6 +1,7 @@
 import { FaDownload } from "react-icons/fa";
 import { useState, useEffect } from "react";
-const CV = () => {
+import CV from '../assets/cv.pdf'
+const CurriculumVitae = () => {
   const [showButton, setShowButton] = useState(false);
 
   // Handle scroll event to check when to show the button
@@ -22,7 +23,7 @@ const CV = () => {
     };
   }, []);
   const handleDownload = () => {
-    const pdfUrl = "/path-to-your-pdf.pdf"; // Replace with the actual URL or path of your PDF file
+    const pdfUrl = CV; // Replace with the actual URL or path of your PDF file
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "my-Resume.pdf"; // Name of the file to be downloaded
@@ -44,4 +45,4 @@ const CV = () => {
   );
 };
 
-export default CV;
+export default CurriculumVitae;
