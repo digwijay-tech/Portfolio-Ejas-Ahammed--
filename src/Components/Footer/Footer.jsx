@@ -6,9 +6,17 @@ const Footer = () => {
     <footer className="bg-slate-950 px-3 lg:px-auto text-white py-6 " id='footer'>
       <div className="container flex justify-between items-center">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} Digwijay. All rights reserved.
+          &copy; {new Date().getFullYear()} Ejas Ahammed. All rights reserved.
         </p>
         <div className="flex space-x-5">
+        <a
+            href="https://www.behance.net/ejasak"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-yellow-400 hover:text-white"
+          >
+            <i className="fab fa-behance fa-lg"></i>
+          </a>
           <a
             href="https://www.instagram.com/ijasahmmed_?igsh=Mzl5Z2lmc2F4dG5o"
             target="_blank"
@@ -26,14 +34,7 @@ const Footer = () => {
           >
             <i className="fab fa-linkedin-in fa-lg"></i>
           </a>
-          <a
-            href="https://www.behance.net/ejasak"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-yellow-400 hover:text-white"
-          >
-            <i className="fab fa-behance fa-lg"></i>
-          </a>
+          
         </div>
       </div>
     </footer>

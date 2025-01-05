@@ -3,7 +3,7 @@ import AboutTabs from "./AboutTabs";
 const AboutMe = () => {
   return (
     <div
-      className="flex flex-col lg:flex-row bg-gray-800 pt-28 px-4 lg:px-12 pb-28"
+      className="flex flex-col lg:flex-row bg-gray-800 pt-28 px-8 lg:px-16 pb-28"
       id="aboutme"
     >
       <div className="flex-1 mb-6 lg:mb-0">

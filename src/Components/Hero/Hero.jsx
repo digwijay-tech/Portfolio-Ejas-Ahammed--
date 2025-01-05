@@ -1,8 +1,16 @@
 import EjasPc from "../../assets/ijas-pic.png";
-// import Wave from "../Wave";
-
+import {useTypewriter} from 'react-simple-typewriter';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+// ..
+AOS.init();
 const Hero = () => {
-
+  const [typeEffect] = useTypewriter({
+    words: ['EJAS AHAMMED A K'],
+    loop: 1,
+    typeSpeed: 100,
+    
+  });
     const phoneNumber = '7510889936'; 
     const message = 'Hi'; 
   
@@ -13,11 +21,11 @@ const Hero = () => {
   return (
     <div className="relative lg:h-lvh h-svh pt-0 lg:pt-10 " id="home">
       <div className="lg:relative h-svh lg:h-auto items-center justify-center grid lg:grid-cols-2 lg:gap-0  gap-10 sm:grid-cols-1 z-10 lg:pt-0 pt-24">
-        <div className="p-10 lg:ms-16 ms-0 grid grid-rows-2">
+        <div className="p-10 md:mx-7 mx-0 grid grid-rows-2">
           <div>
           <span className="text-yellow-400 text-xl">Hi, I&apos;m</span>
           <h1 className="hero-text font-semibold text-3xl md:text-2xl lg:text-5xl lg:leading-normal leading-normal">
-            EJAS AHAMMED AK
+           .{typeEffect}{' '}
           </h1>
           <h3 className="text-xl leading-normal">Graphic Designer</h3>
           </div>
@@ -25,9 +33,9 @@ const Hero = () => {
             <p>Versatile Graphic Designer with talent for developing unique custom artwork. Well-versed in generating innovative ideas and concepts. Collaborates with marketing and managementteams to identify mockups and uses feedback to develop final drafts.
             </p>
           </div>
-          <div className="lg:absolute lg:bottom-7 pt-10 container  ">
-          <button  className="button-hero" onClick={handleClick}>
-            <p>Let&apos;s Connect</p>
+          <div className="lg:absolute lg:bottom-8 pt-16 container  ">
+          <button  className="button-hero" onClick={handleClick}  >
+            <p >Let&apos;s Connect</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -44,7 +52,7 @@ const Hero = () => {
         <img
           src={EjasPc}
           alt="Ejas"
-          className="lg:w-full z-10 lg:pb-0 "
+          className="lg:w-full z-10 lg:pb-0 " data-aos="fade-left" data-aos-duration="2000"
         />
 
       </div>
