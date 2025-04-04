@@ -184,7 +184,7 @@ export default function AboutTabs() {
               &rarr;
             </span>
             Higher Secondary <br />
-            GVHSS Madapply
+            GVHSS Madappally
           </li>
         </ul>
         </span>
@@ -309,15 +309,7 @@ export default function AboutTabs() {
             Sep 2022 - Nov 2022 · 3 mos
           </div>
 
-          <div className="pt-4">
-            <b>Graphic Designer</b> <br />
-            Freebirds Advertising <br />
-            June 2022 - July 2024 <br />
-            <p className="pt-8">
-              I am an accomplished graphic designer with 1+ years of hands-on
-              experience in an advertising company.
-            </p>
-          </div>
+          
         </span>
       </CustomTabPanel>
     </Box>

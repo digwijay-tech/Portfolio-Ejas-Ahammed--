@@ -25,7 +25,7 @@ const Hero = () => {
           <div>
           <span className="text-yellow-400 text-xl">Hi, I&apos;m</span>
           <h1 className="hero-text font-semibold text-3xl md:text-2xl lg:text-5xl lg:leading-normal leading-normal">
-           .{typeEffect}{' '}
+          ‎{typeEffect}{' '}
           </h1>
           <h3 className="text-xl leading-normal">Graphic Designer</h3>
           </div>

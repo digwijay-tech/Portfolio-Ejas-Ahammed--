@@ -45,7 +45,7 @@ const AnimatedProgressBar = ({
   return (
     <div style={progressBarStyles}>
       <div style={fillerStyles}>
-        <span className="text-white text-xs font-semibold ml-2">{`${percentage}%`}</span>
+        <span className="text-gray-800 text-xs font-bold ml-4">{`${percentage}%`}</span>
       </div>
     </div>
   );
@@ -112,7 +112,7 @@ const Skill = () => {
           </div>
 
           <div className="">
-            <h2 className="lg:text-lg font-semibold mb-1">Poster Design</h2>
+            <h2 className="lg:text-lg font-semibold mb-1 ">Poster Design</h2>
             <AnimatedProgressBar
               percentage={85}
               fillerExtraStyles={{ backgroundColor: "#facc15" }}
@@ -154,7 +154,7 @@ const Skill = () => {
           </div>
 
           <div className="pt-3">
-            <h2 className="lg:text-lg font-semibold mb-1">Brand Design</h2>
+            <h2 className="lg:text-lg font-semibold  mb-1">Brand Design</h2>
             <AnimatedProgressBar
               percentage={80}
               fillerExtraStyles={{ backgroundColor: "#facc15" }}
